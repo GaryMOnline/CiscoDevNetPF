@@ -25,6 +25,12 @@ print("Lets add the world, are you ready - '{}'".format(string))
 exclaim = "!"
 exclaim = exclaim *3
 print("Lets make it dramatic - '{}'".format(string + exclaim))
+print string          # Prints complete string
+print string[0]       # Prints first character of the string
+print string[2:5]     # Prints characters starting from 3rd to 5th
+print string[2:]      # Prints string starting from 3rd character
+print string * 2      # Prints string two times
+print string + "TEST" # Prints concatenated string
 
 #List Manipulation:
 print("\nContents of list is {}".format(list))
