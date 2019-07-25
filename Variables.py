@@ -19,21 +19,21 @@ print("dictionary is a {} with a value of {}".format(type(dictionary), dictionar
 #Integer / Number manipulation:
 
 #String Manipulation:
-print("Contents of Sting is ", string)
+print("\nContents of Sting is '{}'".format(string))
 string = string + " world"
-print("Lets add the world, are you ready - ", string)
+print("Lets add the world, are you ready - '{}'".format(string))
 exclaim = "!"
 exclaim = exclaim *3
-print("Lets make it dramatic - ", string + exclaim)
+print("Lets make it dramatic - '{}'".format(string + exclaim))
 
 #List Manipulation:
-print("Contents of list is {}".format(list))
+print("\nContents of list is {}".format(list))
 print("Second object in list is {}".format(list[1]))
 list.append("new")
 print("Contents of list is now {}".format(list))
 
 #Tuple Manipulation:
-print("Contents of tuple is {}".format(tuple))
+print("\nContents of tuple is {}".format(tuple))
 print("Second object in tuple is {}".format(tuple[1]))
 print("Can't add anything to tuple, is immutible!")
 
